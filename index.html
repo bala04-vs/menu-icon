@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            border:2px solid black;
+            width:50px; 
+            padding: 0px 0px -500px;
+            
+
+        }
+        .div1>h1{
+            border:2px solid black;
+            width:100wh;
+            
+
+        }
+        .div2{
+            border:2px solid black;
+            width:120px;
+            padding: 50px;
+            margin-left: 90px;
+
+        }
+        .div2{
+            visibility: hidden;
+        }
+
+.div1:hover~.div2{
+    color: black;
+    visibility: visible;
+    
+}
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+       
+    </div>
+    <div class="div2">
+        <h1>HOME</h1>
+        <h1>CONTACT</h1>
+        <h1>ABOUT</h1>
+        <h1>SETTINGS</h1>
+    </div>
+  
+</body>
+</html>
